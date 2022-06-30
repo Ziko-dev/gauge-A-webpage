@@ -1,0 +1,475 @@
+@font-face {
+    font-family: font1;
+    src: url("fonts/Abel-Regular.woff");
+}
+  
+@font-face {
+font-family: font2;
+src: url("fonts/Barlow-Regular.woff");
+}
+  
+@font-face {
+font-family: font3;
+src: url("fonts/Grandstander-Thin.woff");
+}
+  
+@font-face {
+font-family: font4;
+src: url("fonts/Lato-Regular.woff");
+}
+  
+@font-face {
+font-family: font5;
+src: url("fonts/Montserrat-Regular.woff");
+}
+  
+@font-face {
+font-family: font6;
+src: url("fonts/Nunito-Regular.woff");
+}
+  
+@font-face {
+font-family: font7;
+src: url("fonts/Satisfy-Regular.WOFF");
+}
+  
+@font-face {
+font-family: font8;
+src: url("fonts/Righteous-Regular.WOFF");
+}
+  
+@font-face {
+font-family: font9;
+src: url("fonts/LondrinaSolid-Regular.WOFF");
+}
+  
+@font-face {
+font-family: font10;
+  src: url("fonts/LobsterTwo-Regular.WOFF");
+}
+  
+@font-face {
+font-family: font11;
+src: url("fonts/BigShouldersInlineText-Regular.WOFF");
+}
+  
+@font-face {
+font-family: font12;
+src: url("fonts/BigShouldersInlineText-Black.WOFF");
+}
+  
+@font-face {
+font-family: font13;
+src: url("fonts/Akronim-Regular.woff");
+}
+  
+@font-face {
+font-family: font14;
+src: url("fonts/Akronim-Regular-1.woff");
+}
+  
+@font-face {
+font-family: font15;
+src: url("fonts/AndadaPro-Regular.woff");
+}
+  
+@font-face {
+font-family: font16;
+src: url("fonts/ArchitectsDaughter-Regular.woff");
+}
+  
+@font-face {
+font-family: font17;
+src: url("fonts/Birthstone-Regular.woff");
+}
+  
+@font-face {
+font-family: font18;
+src: url("fonts/OpenSansCondensed-Bold.woff");
+}
+  
+@font-face {
+font-family: font19;
+src: url("fonts/OpenSansCondensed-Light.woff");
+}
+  
+@font-face {
+font-family: font20;
+src: url("fonts/Oswald-Regular.woff");
+}
+  
+@font-face {
+font-family: font21;
+src: url("fonts/Poppins-Regular.woff");
+}
+  
+@font-face {
+font-family: font22;
+src: url("fonts/Raleway-Regular.woff");
+}
+  
+@font-face {
+font-family: font23;
+src: url("fonts/Ubuntu-Bold.woff");
+}
+  
+@font-face {
+font-family: font24;
+src: url("fonts/Ubuntu-Regular.woff");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+    background-color: #1f1d1d;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+}
+ .logo_header{
+    display: flex;
+    margin-left: 2%;
+}
+
+.header_h1_logo {
+   font-family: 'font4';
+    margin-left: 5%;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+nav #main-id{
+display: flex;
+margin: auto 0;
+height: 35px;
+line-height: 35px;
+}
+nav #main-id input{
+    height: 100%;
+    padding: 0 12px;
+    border: 1.5px solid white;
+    outline: none;
+    font-size: 20px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: #3a3838;
+    transition: background-color 0.9s;
+}
+nav #main-id input:hover, nav input:focus{
+    background-color: white;
+}
+nav #main-id input::placeholder{
+    color: grey;
+    font-size: smaller;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav #main-id span {
+    color: white;
+     font-size: 20px;
+     height: 100%;
+     padding: 8px;
+     position: relative;
+     cursor:pointer;
+    z-index: index 1;
+}
+nav #main-id span:hover{
+    color: #ffffff;
+}
+nav #main-id span::after{
+height: 100%;
+width: 100%;
+content: '';
+position: absolute;
+top: 0;
+right: 0;
+z-index: -1;
+transition: 0.3s;
+}
+nav #main-id span:hover::after{
+width: 100%;
+}
+
+nav .bar{
+position: relative;
+margin: auto;
+display: none;
+}
+nav .bar span{
+position: absolute;
+color: #ffffff;
+font-size: 22px;
+}
+input[type = "checkbox"]{
+    -webkit-appearance: none;
+    display: none;
+}
+
+
+
+img{
+    width: 2em;
+}
+nav .main_nav{
+    display: flex;
+   margin: auto 0;
+}
+nav .main_nav li{
+  margin: 0 2px;
+}
+nav .main_nav li .nav-link{
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: lowercase;
+    font-family: cursive;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+}
+nav .main_nav li .nav-link:hover, .nav-link.active{
+color: rgb(235, 153, 139);   
+}
+img {
+    width: 2em;
+}
+
+#hero-div{
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 69px;
+}
+#hero-div #hero-h3{
+    color: whitesmoke;
+    font-size: 10px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+#hero-div #hero-h2{
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.nft-image{
+    width:12em;
+}
+section{
+    max-width:1050px;
+    display: flex;
+    flex-direction: row;
+    background: #3a3838;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+}
+section figure{
+    margin: 12px auto;
+}
+#button-div{
+    padding: 1em;
+    text-align: center;
+}
+#button{
+    width: 10em;
+    height: 2.5em;
+    font-size: 1em;
+    font-weight: bolder;
+    color: whitesmoke;
+    background: blue;
+    border: none;
+    margin: 10px;
+    border-radius: 4px;
+    font-family: sans-serif;
+}
+#button:hover, #button:focus{
+    width: 13em;
+    transition: .5s;
+    background: rgb(141, 141, 230);
+    cursor: pointer;
+}
+#button2{
+    width: 10em;
+    height: 2.5em;
+    font-size: 1em;
+    font-weight: bolder;
+    color: black;
+    background: whitesmoke;
+    border: none;
+    border-radius: 4px;
+    font-family: sans-serif;
+}
+#button2:hover, #button2:focus{
+    width: 13em;
+    transition: .5s;
+    background: rgb(149, 149, 161);
+    cursor: pointer;
+}
+#footer-grp p{
+    color: whitesmoke;
+    text-align: center;
+    font-size: large;
+    font-family: sans-serif;
+    position: relative;
+    top: 2.7em;
+    opacity: 0.67;
+}
+#footer-grp #footer-layer{
+    text-align: center;
+    position: relative;
+    top: 8em;
+    border: none;
+}
+#footer-grp #footer-layer .footer-icon1{
+    border: none;
+    border-radius: 50%;
+    padding: 6px;
+    margin-left: 1em;
+}
+
+
+/* STYLING FOR MEDIA QUERY */
+
+/* media queries for nav bar*/
+@media  screen and (max-width:950px) {
+    nav{
+        display: block;
+        padding: 0;
+    }
+    nav .logo_header{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 auto;
+    }
+    nav #main-id{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    }
+    nav #main-id input{
+    width: 90%;
+    }
+    nav .main_nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(49, 46, 46);
+    height: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    width: 100%;
+    }
+    nav .main_nav li{
+        text-align: center;
+     transition: 0.2s ;
+    }
+    nav .main_nav li .nav-link{
+    font-size: 25px;
+    color: #ffffff;
+    padding: 25px;
+    display: block;
+    }
+    nav .main_nav li:nth-child(1){
+    transform: translateY(-150px);
+    }
+    nav .main_nav li:nth-child(2){
+        transform: translateY(-200px);
+    }
+    nav .main_nav li:nth-child(3){
+        transform: translateY(-250px);
+    }
+    nav .main_nav li:nth-child(4){
+        transform: translateY(-300px);
+    }
+    /*#icon-grp{
+   display: none;
+    }*/
+    nav .bar{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 80px;
+        cursor: pointer;
+    }
+    nav .bar #times{
+display: none;
+    }
+    #check:checked ~  nav .bar #times{
+        display: block;
+    }
+    #check:checked ~  nav .bar #bars{
+        display: none;
+    }
+    #check:checked ~ nav .main_nav{
+    visibility:visible;
+    height: 460px;
+    }
+    nav .main_nav li:nth-child(1),
+    nav .main_nav li:nth-child(2),
+    nav .main_nav li:nth-child(3),
+    nav .main_nav li:nth-child(4){
+    transform: translateX(0);
+    }
+    }
+/*end of media queries for nav bar*/
+
+
+@media (max-width:786px){
+    section{
+    max-width: -webkit-fill-available;
+    display: flex;
+    flex-direction:column;
+    position: relative;
+    left: 0em;
+    margin: 1em;
+}
+
+.nft-image{
+    width: 100%;
+}
+#hero-div {
+    position: relative;
+    left: 0em;
+}
+#hero-div #hero-h3{
+    font-size: 11px;
+    letter-spacing: .5px;
+    word-spacing: 1px;
+}
+#hero-div #hero-h2{
+font-size: 27px;
+letter-spacing: 1px;
+word-spacing: 2px;
+}
+#footer-grp p{
+font-size: smaller;
+}
+header{
+display: inline-block;
+margin: 0 auto;
+width: 100%;
+position: relative;
+}
+}
+@media (max-width:210px){
+#button-div{
+    padding: 0;
+}
+}
