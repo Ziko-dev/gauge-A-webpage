@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Gauge</title>
+<meta name="viewport" content="width = device-width, initial-scale = 1.0 ">
+<link rel="stylesheet" href="Gstyling.css">
+<script src="https://kit.fontawesome.com/67c66657c7.js"></script>
+</head>   
+<body id="body-for-create">
+<input type="checkbox" id="check">
+
+<nav id="myTopnav">
+
+<div class="logo_header">
+<img class="image-for-company"  src="./images/header2.PNG" alt=""  width="90" height="50">
+<a href="index.html" class="header_h1_logo">Gauge</a>
+</div>
+
+<div id="main-id">
+<input type="search" pleholder="search nft">
+<span class="fa fa-search"></span>
+</div>
+
+<ul class="main_nav" >
+<li><a  href="index.html"> home</a></li>
+<li><a  href="explore.html"> Explore</a></li>
+<li><a  id="item-link"  href="item-details.html">Item details</a></li>  
+<li><a class="active" href="create.html">Create</a></li>
+<li><a   href="privacy policy.html">Privacy policy</a></li> 
+</ul>
+
+
+<label for="check" class="bar">
+<span class="fa fa-bars" id="bars"></span>
+<span class="fa fa-times" id="times"></span>
+</label>
+</nav>
+
+
+
+
+<div class="container-for-create-nft-and-wallet">
+<div class="container-section-for-create-nft-and-wallet">
+
+<!--header-flex-container-->
+<div class="flex-container-forheader-and-btn">
+<div class="div-cont-forheader">
+<h3 class="create-nft-heading">Create single collectible</h3>
+</div>
+<div class="div-cont-forbtn">
+<button class="multi-wallet-btn">switch to mutiple</button>
+</div>
+</div>
+<!--end-->
+
+<!--container-form-for-create-wallet-->
+<form action="input" method="get">
+<div class="container-form-for-create-wallet">
+
+<!--input-file-div-->
+<div class="input-file-div">
+
+ <div class="div-for-upload-file">
+<h3 class="upload-file-heading">upload file</h3>
+<p class="upload-file-p">select a file to upload</p>
+ </div>  
+
+
+
+<div class="input-upload">
+<input type="file" name="select nft" accept="image/gif , image/jif , image/jpg , image/jpeg , image/png , image/*, video/mp4 , video/x-mv4, video/*" class="input-nft-for-upload">
+<p class="required-input-formats">jpeg, png, jif, gif, jpg <span class="required-format-span">and</span> mp4, x-m4 </p>
+</div>
+
+</div>    
+<!--end of input-file-div-->
+
+<!--select-method-for-nft-->
+<div class="select-method-for-nft">
+<div class="select-method-header">
+<h3 class="select-method-heading">select method</h3>
+</div>
+</div>
+<!--end-of-select-method-->
+
+<!--select-method buttons-->
+<div class="flex-div-container-for-method-options">
+
+    <div class="select-method-options">
+    <a class="select-method-link" href=""> 
+    <div class="flex-container-for-option-elements">
+    <div class="div-for-image-element">
+    <img class="image-option-element" src="./icons/tag.png" alt="" width="30" height="30">
+    </div>
+    <div class="div-for-name-of-element">
+    <h3 class="name-of-element">Fixed price</h3>
+    </div>
+    </div>
+    </a>
+    </div>
+
+    <div class="select-method-options">
+<a class="select-method-link" href=""> 
+<div class="flex-container-for-option-elements">
+<div class="div-for-image-element">
+<img class="image-option-element" src="./icons/sand-clock.png" alt="" width="30" height="30">
+</div>
+<div class="div-for-name-of-element">
+<h3 class="name-of-element">Timed auction</h3>
+</div>
+</div>
+</a>
+</div>
+
+<div class="select-method-options">
+  <a class="select-method-link" href=""> 
+  <div class="flex-container-for-option-elements">
+  <div class="div-for-image-element">
+  <img class="image-option-element" src="./icons/login.png" alt="" width="30" height="30">
+  </div>
+  <div class="div-for-name-of-element">
+  <h3 class="name-of-element">Open for bids</h3>
+  </div>
+  </div>
+  </a>
+  </div>
+
+    </div>
+<!--end-of-select-method-buttons-->
+
+<!--item-details-form-header-->
+<div class="select-method-for-nft">
+<div class="select-method-header">
+<h3 class="select-method-heading">item details</h3>
+</div>
+</div>
+<!--end-of-details-form-header-->
+
+<!--form-list-->
+<!--<form action="input" method="get">-->
+<!--container-for-form-->
+<div class="div-container-for-form">
+
+<div class="container-for-each-form-input">
+<div class="container-form-input-header">
+<h3 class="form-input-heading">title</h3>
+</div>
+<div class="input-capsule-div">
+<input class="input-capsule" type="text" placeholder="e.g: Agba Crypto">
+</div>
+</div>
+
+<div class="container-for-each-form-input">
+    <div class="container-form-input-header">
+    <h3 class="form-input-heading">description</h3>
+    </div>
+    <div class="input-capsule-div">
+  <textarea placeholder="e.g: this item is an unlimited edition" name="description" id="text-area-capsule" cols="40" rows="10"></textarea>
+    </div>
+    </div>
+
+
+
+<div class="container-for-each-form-input">
+    <div class="container-form-input-header">
+    <h3 class="form-input-heading">price</h3>
+    </div>
+    <div class="input-capsule-div">
+    <input class="input-capsule" type="text" placeholder="e.g: enter price for item (ETH)">
+    </div>
+    </div>
+
+    <div class="container-for-each-form-input">
+<div class="container-form-input-header">
+<h3 class="form-input-heading">royalties</h3>
+</div>
+<div class="input-capsule-div">
+<input class="input-capsule" type="text" placeholder="suggested: 0, 20%, 40%, maximum is 85%">
+</div>
+</div>
+
+</div>
+<!--end-of-container-for-form-->
+<!--</form>-->
+<!--end-of-form-list-->
+
+
+</div>
+<!--div-for-conditions-of-item-->
+<div class="div-for-conditions-of-item">
+    <div class="conditions-section">
+    <div class="flex-container-for-condition-heading">
+    <div class="container-forheader-desc">
+    <img class="condition-logo" src="./icons/open-padlock.png" alt="" width="30" height="30">
+    <h4 class="condition-h3">unlockable content</h4>
+    </div>
+    
+    <div id="button-cont">
+<div class="brn
+" id="brn"></div>
+<button type="button" class="move-button" onclick="logIn()"></button>
+<button type="button" class="move-button" onclick="register()"></button>
+    </div>
+    </div>
+    <div class="condition-p">
+    This content includes an unlockable item that can only be <br>revealed by the owner of the item
+    </div>
+    </div>
+    </div>
+    <!--end-of-div-for-conditions-of-item-->
+
+<!--input-submit-button-->
+<div class="div-for-input-submit-button">
+<input class="input-submit" type="submit" value="done">
+</div>
+<!--end-of-input-submit-button-->
+
+
+
+</form>
+<!--end-of-form-create-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+<div class="div-for-top-creators">
+
+    <div class="week-creator-container">
+    <h4 class="top-creator-small-heading">NFT market</h4>
+    <h3 class="top-creator-large-heading">The week's top creator</h3>
+    </div>
+    
+    
+    <div class="top-creators-container">
+    
+    <div class="top-creator-section">
+    <div class="content-for-creator-section">
+
+ 
+    <div class="creator-details-container">
+  
+
+    <div class="image-top-creator-detail">
+    <img class="image-of-top-creator" src="./images/ja 11.jpg" alt="" width="40" height="40">
+    </div>
+    <div class="large-creator-detail">
+    <h3 class="name-of-top-creator">ziko_dev</h3>
+    <div class="creator-brief-eth-cont">
+    <img class="eth-image-in-detail"  src="./icons/ethereum.png" alt="" width="30" height="30">
+    <h3 class="date-of-release">0d 00h 00m 00s</h3>
+    </div>
+    </div>
+    <div class="small-creator-detail">
+    <img class="click-link-icon" src="./icons/more (1).png" alt="" width="30" height="30">
+    </div>
+
+    </div>
+
+    
+    
+    <div class="creator-details-container">
+    
+    <div class="image-top-creator-detail">
+    <img class="image-of-top-creator" src="./images/ja 11.jpg" alt="" width="40" height="40">
+    </div>
+    <div class="large-creator-detail">
+    <h3 class="name-of-top-creator">ziko_dev</h3>
+    <div class="creator-brief-eth-cont">
+    <img class="eth-image-in-detail"  src="./icons/ethereum.png" alt="" width="30" height="30">
+    <h3 class="date-of-release">0d 00h 00m 00s</h3>
+    </div>
+    </div>
+    <div class="small-creator-detail">
+    <img class="click-link-icon" src="./icons/more (1).png" alt="" width="30" height="30">
+    </div>
+    </div>
+    
+    
+    
+    
+    
+    <div class="creator-details-container">
+    
+    <div class="image-top-creator-detail">
+    <img class="image-of-top-creator" src="./images/ja 11.jpg" alt="" width="40" height="40">
+    </div>
+    <div class="large-creator-detail">
+    <h3 class="name-of-top-creator">ziko_dev</h3>
+    <div class="creator-brief-eth-cont">
+    <img class="eth-image-in-detail"  src="./icons/ethereum.png" alt="" width="30" height="30">
+    <h3 class="date-of-release">0d 00h 00m 00s</h3>
+    </div>
+    </div>
+    <div class="small-creator-detail">
+    <img class="click-link-icon" src="./icons/more (1).png" alt="" width="30" height="30">
+    </div>
+    </div>
+    
+    
+    
+    <div class="creator-details-container">
+    
+    <div class="image-top-creator-detail">
+    <img class="image-of-top-creator" src="./images/ja 11.jpg" alt="" width="40" height="40">
+    </div>
+    <div class="large-creator-detail">
+    <h3 class="name-of-top-creator">ziko_dev</h3>
+    <div class="creator-brief-eth-cont">
+    <img class="eth-image-in-detail"  src="./icons/ethereum.png" alt="" width="30" height="30">
+    <h3 class="date-of-release">0d 00h 00m 00s</h3>
+    </div>
+    </div>
+    <div class="small-creator-detail">
+    <img class="click-link-icon" src="./icons/more (1).png" alt="" width="30" height="30">
+    </div>
+    </div>
+    
+    
+    <div class="creator-details-container">
+    
+    <div class="image-top-creator-detail">
+    <img class="image-of-top-creator" src="./images/ja 11.jpg" alt="" width="40" height="40">
+    </div>
+    <div class="large-creator-detail">
+    <h3 class="name-of-top-creator">ziko_dev</h3>
+    <div class="creator-brief-eth-cont">
+    <img class="eth-image-in-detail"  src="./icons/ethereum.png" alt="" width="30" height="30">
+    <h3 class="date-of-release">0d 00h 00m 00s</h3>
+    </div>
+    </div>
+    <div class="small-creator-detail">
+    <img class="click-link-icon" src="./icons/more (1).png" alt="" width="30" height="30">
+    </div>
+    </div>
+    
+    
+    
+    
+    <div class="creator-details-container">
+    
+    <div class="image-top-creator-detail">
+    <img class="image-of-top-creator" src="./images/ja 11.jpg" alt="" width="40" height="40">
+    </div>
+    <div class="large-creator-detail">
+    <h3 class="name-of-top-creator">ziko_dev</h3>
+    <div class="creator-brief-eth-cont">
+    <img class="eth-image-in-detail"  src="./icons/ethereum.png" alt="" width="30" height="30">
+    <h3 class="date-of-release">0d 00h 00m 00s</h3>
+    </div>
+    </div>
+    <div class="small-creator-detail">
+    <img class="click-link-icon" src="./icons/more (1).png" alt="" width="30" height="30">
+    </div>
+    </div>
+    
+    
+    
+    <div class="creator-details-container">
+    
+    <div class="image-top-creator-detail">
+    <img class="image-of-top-creator" src="./images/ja 11.jpg" alt="" width="40" height="40">
+    </div>
+    <div class="large-creator-detail">
+    <h3 class="name-of-top-creator">ziko_dev</h3>
+    <div class="creator-brief-eth-cont">
+    <img class="eth-image-in-detail"  src="./icons/ethereum.png" alt="" width="30" height="30">
+    <h3 class="date-of-release">0d 00h 00m 00s</h3>
+    </div>
+    </div>
+    <div class="small-creator-detail">
+    <img class="click-link-icon" src="./icons/more (1).png" alt="" width="30" height="30">
+    </div>
+    </div>
+    
+    
+    
+    <div class="creator-details-container">
+    
+    <div class="image-top-creator-detail">
+    <img class="image-of-top-creator" src="./images/ja 11.jpg" alt="" width="40" height="40">
+    </div>
+    <div class="large-creator-detail">
+    <h3 class="name-of-top-creator">ziko_dev</h3>
+    <div class="creator-brief-eth-cont">
+    <img class="eth-image-in-detail"  src="./icons/ethereum.png" alt="" width="30" height="30">
+    <h3 class="date-of-release">0d 00h 00m 00s</h3>
+    </div>
+    </div>
+    <div class="small-creator-detail">
+    <img class="click-link-icon" src="./icons/more (1).png" alt="" width="30" height="30">
+    </div>
+    </div>
+    
+    
+    
+    <div class="creator-details-container">
+    
+    <div class="image-top-creator-detail">
+    <img class="image-of-top-creator" src="./images/ja 11.jpg" alt="" width="40" height="40">
+    </div>
+    <div class="large-creator-detail">
+    <h3 class="name-of-top-creator">ziko_dev</h3>
+    <div class="creator-brief-eth-cont">
+    <img class="eth-image-in-detail"  src="./icons/ethereum.png" alt="" width="30" height="30">
+    <h3 class="date-of-release">0d 00h 00m 00s</h3>
+    </div>
+    </div>
+    <div class="small-creator-detail">
+    <img class="click-link-icon" src="./icons/more (1).png" alt="" width="30" height="30">
+    </div>
+    </div>
+    
+    
+    </div>
+    
+    
+    <button class="top-creator-btn">view more</button>
+    
+    
+    </div>
+    
+    </div>
+    
+    </div>
+
+
+    <footer>
+<div class="footer-container">
+
+
+<div class="footer-header-details">
+
+<div class="logo_header">
+<img class="image-for-company"  src="./images/header2.PNG" alt=""  width="90" height="50">
+<a href="index.html" class="header_h1_logo">Gauge</a>
+</div>
+
+
+<div class="flex-container-for-detail-contact">
+
+<div class="each-contact-container">
+
+<div class="row-flex">
+<div class="each-div-row-for-flex"><img class="contact-icon" src="./icons/phone.png" alt=""></div>
+<div class="each-div-row-for-flex"> <h4 class="contact-heading"> +200 (231) 782-253</h4></div>
+</div>
+
+</div>
+<div class="each-contact-container">
+
+  <div class="row-flex">
+<div class="each-div-row-for-flex"><img class="contact-icon" src="./icons/envelope.png" alt=""></div>
+<div class="each-div-row-for-flex"> <h4 class="contact-heading">ziko-dev@klmail.com</h4></div>
+</div>
+
+</div>
+<div class="each-contact-container">
+
+  <div class="row-flex">
+<div class="each-div-row-for-flex"><img class="contact-icon" src="./icons/016-location.png" alt=""></div>
+<div class="each-div-row-for-flex"> <h4 class="contact-heading">18th street audi express, off victoria corner, ikoyi</h4></div>
+</div>
+
+</div>
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+<div class="other-footer-details">
+<div class="content-for-other-detals">
+
+<div class="other-header"><h4 class="other-heading">Explore</h4></div>
+
+<ul class="other-detail-ul">
+
+<li class="other-details-li">Create</li>
+<li class="other-details-li">My account</li>
+<li class="other-details-li">Privacy policy</li>
+<li class="other-details-li">FaQ</li>
+
+</ul>
+</div> 
+</div>
+
+
+<div class="other-footer-details">
+  <div class="content-for-other-detals">
+  
+  <div class="other-header"><h4 class="other-heading">Marketplace</h4></div>
+  
+  <ul class="other-detail-ul">
+  
+  <li class="other-details-li">Create</li>
+  <li class="other-details-li">My account</li>
+  <li class="other-details-li">lorem</li>
+  <li class="other-details-li">store</li>
+  <li class="other-details-li">FaQ</li>
+  
+  </ul>
+  </div> 
+  </div>
+
+
+
+
+  <div class="other-footer-details">
+<div class="content-for-other-detals">
+
+<div class="other-header"><h4 class="other-heading">community</h4></div>
+
+<ul class="other-detail-ul">
+
+<li class="other-details-li">digital art</li>
+<li class="other-details-li">music nft</li>
+<li class="other-details-li">games</li>
+<li class="other-details-li">photography</li>
+<li class="other-details-li">virtual world</li>
+
+</ul>
+</div> 
+</div>
+
+
+
+
+<div class="other-footer-details">
+<div class="content-for-other-detals">
+
+<div class="other-header"><h4 class="other-heading">newsletter</h4></div>
+
+<form action="GET" class="newsletter-form">
+<div class="newsletter-container">
+
+<input type="text" class="input-newsletter" placeholder="enter email here">
+<input class="input-submt-newsletter" type="submit" value="Enter">
+
+</div>
+</form>
+<div class="flex-media-container">
+  <div class="each-media-div"><img src="./icons/734377_online_social_media_twitter.png" alt="" class="footer-icon"></div>
+  <div class="each-media-div"><img src="./icons/734394_online_instagram_social_media.png" alt="" class="footer-icon"></div>
+  <div class="each-media-div"><img src="./icons/734399_facebook_social_online_media.png" alt="" class="footer-icon"></div>
+  </div>
+ 
+</div> 
+</div>
+
+
+</div>
+
+<center class="centre">
+  <h6 class="centre-for-h6">copyright © 2022 All rights reserved | <span class="footer-span"> Gauge .com</span></h6>
+</center>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
